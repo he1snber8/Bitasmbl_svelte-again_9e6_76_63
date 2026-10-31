@@ -1,0 +1,26 @@
+{
+  "fileMappings": [
+    {
+      "file": "frontend/src/routes/route.ts",
+      "requirementId": 901,
+      "lastModified": "2026-10-31T09:14:38.724Z",
+      "activity": {
+        "idleBreaks": 0,
+        "intervalSamples": [
+          {
+            "interval": 0,
+            "diffStats": {
+              "linesAdded": 11,
+              "linesDeleted": 0
+            }
+          }
+        ],
+        "medianEditIntervalSec": 0
+      },
+      "sourceHints": {
+        "possiblePaste": false,
+        "suspiciousJump": false
+      }
+    }
+  ]
+}

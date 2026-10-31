@@ -1,0 +1,50 @@
+{
+  "projectName": "Task Dashboard",
+  "projectOverview": "Build a responsive task management dashboard using Svelte with reusable components, local state handling, filtering, and clean UI structure.",
+  "techStackId": 18,
+  "projectId": 400,
+  "requirements": [
+    {
+      "id": 901,
+      "header": "Define dashboard layout",
+      "description": "Create the main dashboard layout with sidebar navigation, header, and task content area.",
+      "paths": [
+        "**/src/lib/layout/**",
+        "**/src/routes/**",
+        "**/src/lib/components/**"
+      ]
+    },
+    {
+      "id": 902,
+      "header": "Build task components",
+      "description": "Build reusable task components for listing, creating, editing, and deleting tasks.",
+      "paths": [
+        "**/src/lib/components/tasks/**",
+        "**/src/lib/features/tasks/**"
+      ]
+    },
+    {
+      "id": 903,
+      "header": "Implement task filtering",
+      "description": "Implement filtering and derived task counts using Svelte reactivity.",
+      "paths": [
+        "**/src/lib/stores/**",
+        "**/src/lib/utils/**",
+        "**/src/lib/features/tasks/**"
+      ]
+    }
+  ],
+  "projectApplicationId": 76,
+  "currentWorkingProject": "https://github.com/he1snber8/Bitasmbl_svelte-again_9e6_76_63",
+  "domains": [
+    {
+      "name": "FrontEnd",
+      "tech": [
+        "Svelte"
+      ],
+      "initializedLocally": false,
+      "repo": "https://github.com/he1snber8/Bitasmbl_svelte-again_9e6_76_63",
+      "localPath": "/Users/lukakhaja/Bitasmbl_svelte-again_9e6_76_63"
+    }
+  ]
+}
