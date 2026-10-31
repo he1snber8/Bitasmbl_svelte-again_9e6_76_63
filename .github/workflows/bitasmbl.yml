@@ -1,4 +1,3 @@
-
 name: Bitasmbl Validation
 on:
   push:
@@ -17,7 +16,7 @@ jobs:
       - name: Scaffold Tech
         shell: bash
         run: |
-           npm create vite@latest frontend -- --template svelte-ts
+          npm create vite@latest frontend -- --template svelte-ts
       - name: Commit scaffold
         run: |
           git config user.name "${{ github.actor }}"
@@ -103,7 +102,7 @@ jobs:
             exit 1
           fi
       - name: Extract metadata from bitasmbl.task.json
-        if: github.event.head_commit.message != 'bitasmbl:token-check' && github.event.head_commit.message != 'bitasmbl:remove-token-check' 
+        if: github.event.head_commit.message != 'bitasmbl:token-check' && github.event.head_commit.message != 'bitasmbl:remove-token-check'
         id: meta
         run: |
           PROJECT_APPLICATION_LINKED_REPO_ID=$(jq -r '.projectApplicationLinkedRepoId' bitasmbl.task.json)
@@ -111,7 +110,7 @@ jobs:
           REQUIREMENT_ID=$(jq -r '.requirementId' bitasmbl.task.json)
           BRANCH=$(jq -r '.branch' bitasmbl.task.json)
           COMMIT_SHA=$(jq -r '.commitSha' bitasmbl.task.json)
-          
+
           ACTIVITY_DATA=$(jq -c '.activityMeta' bitasmbl.task.json)
 
           echo "project_application_linked_repo_id=$PROJECT_APPLICATION_LINKED_REPO_ID" >> $GITHUB_OUTPUT
@@ -124,7 +123,7 @@ jobs:
           echo "$ACTIVITY_DATA" >> $GITHUB_OUTPUT
           echo "EOF" >> $GITHUB_OUTPUT
       - name: Send to backend
-        if: github.event.head_commit.message != 'bitasmbl:token-check' && github.event.head_commit.message != 'bitasmbl:remove-token-check' 
+        if: github.event.head_commit.message != 'bitasmbl:token-check' && github.event.head_commit.message != 'bitasmbl:remove-token-check'
         env:
           PROJECT_APPLICATION_LINKED_REPO_ID: ${{ steps.meta.outputs.project_application_linked_repo_id }}
           PROJECT_APPLICATION_ID: ${{ steps.meta.outputs.project_application_id }}
@@ -160,7 +159,7 @@ jobs:
               githubAccessToken: $githubAccessToken
             }'
           )
-          
+
           RESPONSE=$(curl -s \
             -w "\n%{http_code}" \
             -X POST "https://5389-176-221-143-53.ngrok-free.app/projects/evaluate-project-units" \
@@ -177,4 +176,3 @@ jobs:
             echo "::error::$BODY"
             exit 1
           fi
-          
