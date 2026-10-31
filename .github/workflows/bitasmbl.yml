@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+      - "bitasmbl/evaluations/**"
 jobs:
   scaffold:
     if: github.event.head_commit.message == 'bitasmbl:init'
