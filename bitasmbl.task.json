@@ -1,218 +1,36 @@
 {
   "projectApplicationLinkedRepoId": 63,
   "projectApplicationId": 76,
-  "requirementId": 901,
+  "requirementId": 902,
   "files": [
-    "frontend/src/routes/route.ts"
+    "frontend/src/tasks/TaskCard.svelte"
   ],
-  "branch": "bitasmbl/evaluations/33854fc3-d5ce-43dd-83a8-bf6a73447b4f",
-  "commitSha": "20e8444e0b321ebb81bd36ad33a5123d49cc9604",
+  "branch": "bitasmbl/evaluations/71f43c4b-5474-4eec-b9f1-eda8fc4360de",
+  "commitSha": "8bd96844d28381d8afc5d4264ef645c45fa7e2fe",
   "activityMeta": [
     {
-      "file": "frontend/src/routes/route.ts",
-      "requirementId": 901,
-      "lastModified": "2026-10-31T09:51:23.327Z",
+      "file": "frontend/src/tasks/TaskCard.svelte",
+      "requirementId": 902,
+      "lastModified": "2026-10-31T10:48:27.927Z",
       "activity": {
-        "idleBreaks": 2,
+        "idleBreaks": 0,
         "intervalSamples": [
           {
             "interval": 0,
             "diffStats": {
-              "linesAdded": 11,
+              "linesAdded": 28,
               "linesDeleted": 0
             }
           },
           {
             "diffStats": {
-              "linesAdded": 2,
-              "linesDeleted": 1
-            },
-            "interval": 542
-          },
-          {
-            "diffStats": {
-              "linesAdded": 0,
-              "linesDeleted": 0
-            },
-            "interval": 8
-          },
-          {
-            "diffStats": {
-              "linesAdded": 2,
-              "linesDeleted": 1
-            },
-            "interval": 114
-          },
-          {
-            "diffStats": {
-              "linesAdded": 0,
-              "linesDeleted": 0
-            },
-            "interval": 2
-          },
-          {
-            "diffStats": {
-              "linesAdded": 2,
-              "linesDeleted": 1
-            },
-            "interval": 112
-          },
-          {
-            "diffStats": {
-              "linesAdded": 0,
-              "linesDeleted": 0
-            },
-            "interval": 10
-          },
-          {
-            "diffStats": {
-              "linesAdded": 0,
-              "linesDeleted": 0
-            },
-            "interval": 432
-          },
-          {
-            "diffStats": {
-              "linesAdded": 2,
-              "linesDeleted": 1
-            },
-            "interval": 21
-          },
-          {
-            "diffStats": {
-              "linesAdded": 0,
-              "linesDeleted": 0
-            },
-            "interval": 2
-          },
-          {
-            "diffStats": {
-              "linesAdded": 0,
+              "linesAdded": 28,
               "linesDeleted": 0
             },
             "interval": 1
-          },
-          {
-            "diffStats": {
-              "linesAdded": 2,
-              "linesDeleted": 1
-            },
-            "interval": 245
-          },
-          {
-            "diffStats": {
-              "linesAdded": 0,
-              "linesDeleted": 0
-            },
-            "interval": 7
-          },
-          {
-            "diffStats": {
-              "linesAdded": 2,
-              "linesDeleted": 1
-            },
-            "interval": 113
-          },
-          {
-            "diffStats": {
-              "linesAdded": 0,
-              "linesDeleted": 0
-            },
-            "interval": 5
-          },
-          {
-            "diffStats": {
-              "linesAdded": 2,
-              "linesDeleted": 1
-            },
-            "interval": 98
-          },
-          {
-            "diffStats": {
-              "linesAdded": 0,
-              "linesDeleted": 0
-            },
-            "interval": 11
-          },
-          {
-            "diffStats": {
-              "linesAdded": 2,
-              "linesDeleted": 1
-            },
-            "interval": 45
-          },
-          {
-            "diffStats": {
-              "linesAdded": 0,
-              "linesDeleted": 0
-            },
-            "interval": 9
-          },
-          {
-            "diffStats": {
-              "linesAdded": 2,
-              "linesDeleted": 1
-            },
-            "interval": 52
-          },
-          {
-            "diffStats": {
-              "linesAdded": 0,
-              "linesDeleted": 0
-            },
-            "interval": 18
-          },
-          {
-            "diffStats": {
-              "linesAdded": 2,
-              "linesDeleted": 1
-            },
-            "interval": 135
-          },
-          {
-            "diffStats": {
-              "linesAdded": 2,
-              "linesDeleted": 1
-            },
-            "interval": 1
-          },
-          {
-            "diffStats": {
-              "linesAdded": 2,
-              "linesDeleted": 1
-            },
-            "interval": 2
-          },
-          {
-            "diffStats": {
-              "linesAdded": 0,
-              "linesDeleted": 0
-            },
-            "interval": 12
-          },
-          {
-            "diffStats": {
-              "linesAdded": 2,
-              "linesDeleted": 1
-            },
-            "interval": 165
-          },
-          {
-            "diffStats": {
-              "linesAdded": 0,
-              "linesDeleted": 0
-            },
-            "interval": 9
-          },
-          {
-            "diffStats": {
-              "linesAdded": 2,
-              "linesDeleted": 1
-            },
-            "interval": 20
           }
         ],
-        "medianEditIntervalSec": 15
+        "medianEditIntervalSec": 0.5
       },
       "sourceHints": {
         "possiblePaste": false,

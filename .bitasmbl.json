@@ -18,10 +18,7 @@
       "id": 902,
       "header": "Build task components",
       "description": "Build reusable task components for listing, creating, editing, and deleting tasks.",
-      "paths": [
-        "**/src/lib/components/tasks/**",
-        "**/src/lib/features/tasks/**"
-      ]
+      "paths": ["**/src/lib/components/tasks/**", "**/src/tasks/**"]
     },
     {
       "id": 903,
@@ -39,9 +36,7 @@
   "domains": [
     {
       "name": "FrontEnd",
-      "tech": [
-        "Svelte"
-      ],
+      "tech": ["Svelte"],
       "initializedLocally": false,
       "repo": "https://github.com/he1snber8/Bitasmbl_svelte-again_9e6_76_63",
       "localPath": "/Users/lukakhaja/Bitasmbl_svelte-again_9e6_76_63"
