@@ -1,3 +1,31 @@
+/**
+ * Score: 0/100 | STATUS: FAIL ❌
+ */
+
+/**
+ * -- Unprofessional comment committed to source control. --
+ *
+ * Issue: Inappropriate and unprofessional commentary present in code.
+ *
+ * Impact: Violates code standards and reduces production readiness and maintainability.
+ *
+ * Suggestion: Remove unprofessional comments and adhere to professional code conduct guidelines.
+ */
+
+/**
+ * Score: 0/100 | STATUS: FAIL ❌
+ */
+
+/**
+ * -- Backend Express router provided instead of Svelte components. --
+ *
+ * Issue: Node.js Express router implemented instead of Svelte layout components.
+ *
+ * Impact: Fails all acceptance criteria for the dashboard layout milestone.
+ *
+ * Suggestion: Implement Svelte components (such as +layout.svelte) containing header, sidebar, and main slot areas.
+ */
+
 <script lang="ts">
   export let activeRoute = 'tasks';
 
