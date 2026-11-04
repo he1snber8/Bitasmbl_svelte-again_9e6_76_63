@@ -1,176 +1,26 @@
 {
   "fileMappings": [
     {
-      "file": "frontend/src/routes/nah.ts",
-      "requirementId": 901,
-      "lastModified": "2026-11-04T15:08:58.303Z",
-      "activity": {
-        "editEvents": 2,
-        "activeDurationSec": 34,
-        "idleBreaks": 0,
-        "editIntervals": {
-          "averageSec": 17,
-          "medianSec": 34,
-          "rapidEdits": 0,
-          "pauses": 0,
-          "longPauses": 0
-        },
-        "diffStats": {
-          "linesAdded": 59,
-          "linesDeleted": 18
-        },
-        "sourceHints": {
-          "possiblePaste": true,
-          "suspiciousJump": false
-        }
-      }
-    },
-    {
-      "file": "frontend/src/routes/routa.ts",
-      "requirementId": 901,
-      "lastModified": "2026-11-04T15:13:32.220Z",
-      "activity": {
-        "editEvents": 4,
-        "activeDurationSec": 299,
-        "idleBreaks": 0,
-        "editIntervals": {
-          "averageSec": 74.75,
-          "medianSec": 27,
-          "rapidEdits": 0,
-          "pauses": 0,
-          "longPauses": 0
-        },
-        "diffStats": {
-          "linesAdded": 24,
-          "linesDeleted": 0
-        },
-        "sourceHints": {
-          "possiblePaste": false,
-          "suspiciousJump": false
-        }
-      }
-    },
-    {
-      "file": ".bitasmbl.json",
-      "requirementId": 0,
-      "lastModified": "2026-11-04T15:19:23.817Z",
-      "activity": {
-        "editEvents": 2,
-        "activeDurationSec": 35,
-        "idleBreaks": 0,
-        "editIntervals": {
-          "averageSec": 17.5,
-          "medianSec": 17.5,
-          "rapidEdits": 0,
-          "pauses": 0,
-          "longPauses": 0
-        },
-        "diffStats": {
-          "linesAdded": 1,
-          "linesDeleted": 1
-        },
-        "sourceHints": {
-          "possiblePaste": false,
-          "suspiciousJump": false
-        }
-      }
-    },
-    {
-      "file": "frontend/src/tasks/Task.svelte",
+      "file": "frontend/src/tasks/Slippina.svelte",
       "requirementId": 902,
-      "lastModified": "2026-11-04T15:20:02.172Z",
+      "lastModified": "2026-11-04T17:52:12.245Z",
       "activity": {
-        "editEvents": 3,
-        "activeDurationSec": 38,
-        "idleBreaks": 0,
-        "editIntervals": {
-          "averageSec": 12.666666666666666,
-          "medianSec": 19,
-          "rapidEdits": 1,
-          "pauses": 0,
-          "longPauses": 0
-        },
-        "diffStats": {
-          "linesAdded": 64,
-          "linesDeleted": 0
-        },
-        "sourceHints": {
-          "possiblePaste": true,
-          "suspiciousJump": false
-        }
-      }
-    },
-    {
-      "file": "frontend/src/tasks/TaskCard.svelte",
-      "requirementId": 902,
-      "lastModified": "2026-11-04T16:21:11.456Z",
-      "activity": {
-        "editEvents": 4,
-        "activeDurationSec": 11,
+        "editEvents": 12,
+        "activeDurationSec": 51,
         "idleBreaks": 1,
         "editIntervals": {
-          "averageSec": 592,
-          "medianSec": 1184,
-          "rapidEdits": 1,
+          "averageSec": 144.08333333333331,
+          "medianSec": 7,
+          "rapidEdits": 7,
           "pauses": 1,
           "longPauses": 1
         },
         "diffStats": {
-          "linesAdded": 10,
-          "linesDeleted": 8
+          "linesAdded": 296,
+          "linesDeleted": 306
         },
         "sourceHints": {
-          "possiblePaste": false,
-          "suspiciousJump": false
-        }
-      }
-    },
-    {
-      "file": "bitasmbl.task3.json",
-      "requirementId": 0,
-      "lastModified": "2026-11-04T16:38:14.256Z",
-      "activity": {
-        "editEvents": 2,
-        "activeDurationSec": 0,
-        "idleBreaks": 1,
-        "editIntervals": {
-          "averageSec": 2531,
-          "medianSec": 5062,
-          "rapidEdits": 0,
-          "pauses": 1,
-          "longPauses": 1
-        },
-        "diffStats": {
-          "linesAdded": 7,
-          "linesDeleted": 80
-        },
-        "sourceHints": {
-          "possiblePaste": false,
-          "suspiciousJump": false
-        }
-      }
-    },
-    {
-      "file": "frontend/src/tasks/TestTask.svelte",
-      "requirementId": 902,
-      "lastModified": "2026-11-04T16:38:44.897Z",
-      "activity": {
-        "editEvents": 3,
-        "activeDurationSec": 165,
-        "idleBreaks": 0,
-        "editIntervals": {
-          "averageSec": 55,
-          "medianSec": 82.5,
-          "rapidEdits": 1,
-          "pauses": 0,
-          "longPauses": 0
-        },
-        "diffStats": {
-          "linesAdded": 12,
-          "linesDeleted": 0
-        },
-        "sourceHints": {
-          "possiblePaste": false,
+          "possiblePaste": true,
           "suspiciousJump": false
         }
       }

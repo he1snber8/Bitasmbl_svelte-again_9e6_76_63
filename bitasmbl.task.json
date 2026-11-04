@@ -3,32 +3,32 @@
   "projectApplicationId": 76,
   "requirementId": 902,
   "files": [
-    "frontend/src/tasks/TestTask.svelte"
+    "frontend/src/tasks/Slippina.svelte"
   ],
-  "branch": "bitasmbl/evaluations/d7d45bde-d460-4f64-bdd9-24dbec47983f",
-  "commitSha": "b9584e4175bb7ed841d9a5317136e6b54d58ef0d",
+  "branch": "bitasmbl/evaluations/ddf6b39d-bc9b-4440-9a0f-3e4e24d70052",
+  "commitSha": "b1f800a390d799a1cfd45040eec378a909743e91",
   "activityMeta": [
     {
-      "file": "frontend/src/tasks/TestTask.svelte",
+      "file": "frontend/src/tasks/Slippina.svelte",
       "requirementId": 902,
-      "lastModified": "2026-11-04T16:36:07.270Z",
+      "lastModified": "2026-11-04T17:24:13.908Z",
       "activity": {
-        "editEvents": 2,
-        "activeDurationSec": 8,
+        "editEvents": 11,
+        "activeDurationSec": 51,
         "idleBreaks": 0,
         "editIntervals": {
-          "averageSec": 4,
-          "medianSec": 8,
-          "rapidEdits": 1,
+          "averageSec": 4.636363636363637,
+          "medianSec": 6,
+          "rapidEdits": 7,
           "pauses": 0,
           "longPauses": 0
         },
         "diffStats": {
-          "linesAdded": 12,
-          "linesDeleted": 0
+          "linesAdded": 296,
+          "linesDeleted": 12
         },
         "sourceHints": {
-          "possiblePaste": false,
+          "possiblePaste": true,
           "suspiciousJump": false
         }
       }

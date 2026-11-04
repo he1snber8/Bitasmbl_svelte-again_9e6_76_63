@@ -1,28 +1,28 @@
 [
   {
-    "file": "frontend/src/tasks/TestTask.svelte",
+    "file": "frontend/src/tasks/Slippina.svelte",
     "fileActivity": {
-      "editEvents": 2,
-      "activeDurationSec": 8,
+      "editEvents": 11,
+      "activeDurationSec": 51,
       "idleBreaks": 0,
       "editIntervals": {
-        "averageSec": 4,
-        "medianSec": 8,
-        "rapidEdits": 1,
+        "averageSec": 4.636363636363637,
+        "medianSec": 6,
+        "rapidEdits": 7,
         "pauses": 0,
         "longPauses": 0
       },
       "diffStats": {
-        "linesAdded": 12,
-        "linesDeleted": 0
+        "linesAdded": 296,
+        "linesDeleted": 12
       },
       "sourceHints": {
-        "possiblePaste": false,
+        "possiblePaste": true,
         "suspiciousJump": false
       }
     },
     "fileData": {
-      "blobSha": "109baa0275169cc77c7c84aba5381b91161448db",
+      "blobSha": "0c5fc3adea0e88d3a5296ede7ddbe84d1a0bb303",
       "mode": "100644",
       "type": "blob"
     }
