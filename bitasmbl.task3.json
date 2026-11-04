@@ -1,47 +1,19 @@
 [
   {
-    "file": "frontend/src/tasks/Task.svelte",
+    "file": "frontend/src/tasks/TestTask.svelte",
     "fileActivity": {
-      "editEvents": 3,
-      "activeDurationSec": 38,
+      "editEvents": 2,
+      "activeDurationSec": 8,
       "idleBreaks": 0,
       "editIntervals": {
-        "averageSec": 12.666666666666666,
-        "medianSec": 19,
+        "averageSec": 4,
+        "medianSec": 8,
         "rapidEdits": 1,
         "pauses": 0,
         "longPauses": 0
       },
       "diffStats": {
-        "linesAdded": 64,
-        "linesDeleted": 0
-      },
-      "sourceHints": {
-        "possiblePaste": true,
-        "suspiciousJump": false
-      }
-    },
-    "fileData": {
-      "blobSha": "965f505dd638b99d20dabbb496c668484b3983e8",
-      "mode": "100644",
-      "type": "blob"
-    }
-  },
-  {
-    "file": "frontend/src/tasks/TaskCard.svelte",
-    "fileActivity": {
-      "editEvents": 3,
-      "activeDurationSec": 11,
-      "idleBreaks": 0,
-      "editIntervals": {
-        "averageSec": 3.6666666666666665,
-        "medianSec": 5.5,
-        "rapidEdits": 1,
-        "pauses": 0,
-        "longPauses": 0
-      },
-      "diffStats": {
-        "linesAdded": 5,
+        "linesAdded": 12,
         "linesDeleted": 0
       },
       "sourceHints": {
@@ -50,7 +22,7 @@
       }
     },
     "fileData": {
-      "blobSha": "0db01eecb82b558331152f3a689c52fcd6fcd6cc",
+      "blobSha": "109baa0275169cc77c7c84aba5381b91161448db",
       "mode": "100644",
       "type": "blob"
     }

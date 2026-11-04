@@ -226,3 +226,79 @@ Error: SyntaxError: /Users/lukakhaja/Bitasmbl_svelte-again_9e6_76_63/.bitasmbl/b
     at JSON.parse (<anonymous>)
     at Object._readFile (/Users/lukakhaja/Desktop/bitasmbl-cli/node_modules/jsonfile/index.js:25:16)
     at async updateTaskManifest (file:///Users/lukakhaja/Desktop/bitasmbl-cli/dist/commands/watch.js:528:24)
+Error: SyntaxError: /Users/lukakhaja/Bitasmbl_svelte-again_9e6_76_63/.bitasmbl/bitasmbl.tasks.json: Unexpected non-whitespace character after JSON at position 3673 (line 155 column 1)
+    at JSON.parse (<anonymous>)
+    at Object._readFile (/Users/lukakhaja/Desktop/bitasmbl-cli/node_modules/jsonfile/index.js:25:16)
+    at async updateTaskManifest (file:///Users/lukakhaja/Desktop/bitasmbl-cli/dist/commands/watch.js:528:24)
+{
+  file: undefined,
+  activity: undefined,
+  diffStats: undefined,
+  sourceHints: undefined
+}
+{
+  file: 'frontend/src/tasks/TestTask.svelte',
+  activity: {
+    editEvents: 1,
+    activeDurationSec: 0,
+    idleBreaks: 0,
+    editIntervals: {
+      averageSec: 0,
+      medianSec: 0,
+      rapidEdits: 0,
+      pauses: 0,
+      longPauses: 0
+    },
+    diffStats: { linesAdded: 0, linesDeleted: 0 },
+    sourceHints: { possiblePaste: false, suspiciousJump: false }
+  },
+  diffStats: { linesAdded: 0, linesDeleted: 0 },
+  sourceHints: { possiblePaste: false, suspiciousJump: false }
+}
+last modified: 1793810159029
+last modified delta: 8
+SOURCE HINTS UPDATINNNGG
+{
+  file: 'bitasmbl.task3.json',
+  activity: {
+    editEvents: 1,
+    activeDurationSec: 0,
+    idleBreaks: 0,
+    editIntervals: {
+      averageSec: 0,
+      medianSec: 0,
+      rapidEdits: 0,
+      pauses: 0,
+      longPauses: 0
+    },
+    diffStats: { linesAdded: 0, linesDeleted: 0 },
+    sourceHints: { possiblePaste: false, suspiciousJump: false }
+  },
+  diffStats: { linesAdded: 0, linesDeleted: 0 },
+  sourceHints: { possiblePaste: false, suspiciousJump: false }
+}
+last modified: 1793805231966
+last modified delta: 5062
+SOURCE HINTS UPDATINNNGG
+{
+  file: 'frontend/src/tasks/TestTask.svelte',
+  activity: {
+    editEvents: 2,
+    activeDurationSec: 8,
+    idleBreaks: 0,
+    editIntervals: {
+      averageSec: 4,
+      medianSec: 8,
+      rapidEdits: 1,
+      pauses: 0,
+      longPauses: 0
+    },
+    diffStats: { linesAdded: 12, linesDeleted: 0 },
+    sourceHints: { possiblePaste: false, suspiciousJump: false }
+  },
+  diffStats: { linesAdded: 12, linesDeleted: 0 },
+  sourceHints: { possiblePaste: false, suspiciousJump: false }
+}
+last modified: 1793810167270
+last modified delta: 157
+SOURCE HINTS UPDATINNNGG
