@@ -1,50 +1,228 @@
-project root inside WATCH.JS: /Users/lukakhaja/Bitasmbl_svelte-again_9e6_76_63
-Watcher Sync Error: ExecaError: Command failed with exit code 128: git add -- frontend/src/routes/route.ts
-
-fatal: Unable to create '/Users/lukakhaja/Bitasmbl_svelte-again_9e6_76_63/.git/index.lock': File exists.
-
-Another git process seems to be running in this repository, e.g.
-an editor opened by 'git commit'. Please make sure all processes
-are terminated then try again. If it still fails, a git process
-may have crashed in this repository earlier:
-remove the file manually to continue.
-    at getFinalError (file:///Users/lukakhaja/Desktop/bitasmbl-cli/node_modules/execa/lib/return/final-error.js:6:9)
-    at makeError (file:///Users/lukakhaja/Desktop/bitasmbl-cli/node_modules/execa/lib/return/result.js:108:16)
-    at getAsyncResult (file:///Users/lukakhaja/Desktop/bitasmbl-cli/node_modules/execa/lib/methods/main-async.js:168:4)
-    at handlePromise (file:///Users/lukakhaja/Desktop/bitasmbl-cli/node_modules/execa/lib/methods/main-async.js:151:17)
-    at async updateTaskManifest (file:///Users/lukakhaja/Desktop/bitasmbl-cli/dist/commands/watch.js:153:9) {
-  shortMessage: 'Command failed with exit code 128: git add -- frontend/src/routes/route.ts',
-  command: 'git add -- frontend/src/routes/route.ts',
-  escapedCommand: 'git add -- frontend/src/routes/route.ts',
-  cwd: '/Users/lukakhaja/Bitasmbl_svelte-again_9e6_76_63',
-  durationMs: 14.34325,
-  failed: true,
-  timedOut: false,
-  isCanceled: false,
-  isGracefullyCanceled: false,
-  isTerminated: false,
-  isMaxBuffer: false,
-  isForcefullyTerminated: false,
-  exitCode: 128,
-  stdout: '',
-  stderr: "fatal: Unable to create '/Users/lukakhaja/Bitasmbl_svelte-again_9e6_76_63/.git/index.lock': File exists.\n" +
-    '\n' +
-    'Another git process seems to be running in this repository, e.g.\n' +
-    "an editor opened by 'git commit'. Please make sure all processes\n" +
-    'are terminated then try again. If it still fails, a git process\n' +
-    'may have crashed in this repository earlier:\n' +
-    'remove the file manually to continue.',
-  stdio: [
-    undefined,
-    '',
-    "fatal: Unable to create '/Users/lukakhaja/Bitasmbl_svelte-again_9e6_76_63/.git/index.lock': File exists.\n" +
-      '\n' +
-      'Another git process seems to be running in this repository, e.g.\n' +
-      "an editor opened by 'git commit'. Please make sure all processes\n" +
-      'are terminated then try again. If it still fails, a git process\n' +
-      'may have crashed in this repository earlier:\n' +
-      'remove the file manually to continue.'
-  ],
-  ipcOutput: [],
-  pipedFrom: []
-} frontend/src/routes/route.ts
+{
+  file: undefined,
+  activity: undefined,
+  diffStats: undefined,
+  sourceHints: undefined
+}
+{
+  file: undefined,
+  activity: undefined,
+  diffStats: undefined,
+  sourceHints: undefined
+}
+{
+  file: 'frontend/src/routes/routa.ts',
+  activity: {
+    editEvents: 1,
+    activeDurationSec: 0,
+    idleBreaks: 0,
+    editIntervals: {
+      averageSec: 0,
+      medianSec: 0,
+      rapidEdits: 0,
+      pauses: 0,
+      longPauses: 0
+    },
+    diffStats: { linesAdded: 0, linesDeleted: 0 },
+    sourceHints: { possiblePaste: false, suspiciousJump: false }
+  },
+  diffStats: { linesAdded: 0, linesDeleted: 0 },
+  sourceHints: { possiblePaste: false, suspiciousJump: false }
+}
+last modified: 1793804912121
+last modified delta: 12
+SOURCE HINTS UPDATINNNGG
+{
+  file: 'frontend/src/routes/nah.ts',
+  activity: {
+    editEvents: 1,
+    activeDurationSec: 0,
+    idleBreaks: 0,
+    editIntervals: {
+      averageSec: 0,
+      medianSec: 0,
+      rapidEdits: 0,
+      pauses: 0,
+      longPauses: 0
+    },
+    diffStats: { linesAdded: 0, linesDeleted: 0 },
+    sourceHints: { possiblePaste: false, suspiciousJump: false }
+  },
+  diffStats: { linesAdded: 0, linesDeleted: 0 },
+  sourceHints: { possiblePaste: false, suspiciousJump: false }
+}
+last modified: 1793804903790
+last modified delta: 34
+SOURCE HINTS UPDATINNNGG
+{
+  file: 'frontend/src/routes/routa.ts',
+  activity: {
+    editEvents: 2,
+    activeDurationSec: 12,
+    idleBreaks: 0,
+    editIntervals: {
+      averageSec: 6,
+      medianSec: 12,
+      rapidEdits: 0,
+      pauses: 0,
+      longPauses: 0
+    },
+    diffStats: { linesAdded: 8, linesDeleted: 0 },
+    sourceHints: { possiblePaste: false, suspiciousJump: false }
+  },
+  diffStats: { linesAdded: 8, linesDeleted: 0 },
+  sourceHints: { possiblePaste: false, suspiciousJump: false }
+}
+last modified: 1793804924869
+last modified delta: 260
+SOURCE HINTS UPDATINNNGG
+{
+  file: 'frontend/src/routes/routa.ts',
+  activity: {
+    editEvents: 3,
+    activeDurationSec: 272,
+    idleBreaks: 0,
+    editIntervals: {
+      averageSec: 90.66666666666667,
+      medianSec: 136,
+      rapidEdits: 0,
+      pauses: 0,
+      longPauses: 0
+    },
+    diffStats: { linesAdded: 16, linesDeleted: 0 },
+    sourceHints: { possiblePaste: false, suspiciousJump: false }
+  },
+  diffStats: { linesAdded: 16, linesDeleted: 0 },
+  sourceHints: { possiblePaste: false, suspiciousJump: false }
+}
+last modified: 1793805185092
+last modified delta: 27
+SOURCE HINTS UPDATINNNGG
+{
+  file: undefined,
+  activity: undefined,
+  diffStats: undefined,
+  sourceHints: undefined
+}
+{
+  file: undefined,
+  activity: undefined,
+  diffStats: undefined,
+  sourceHints: undefined
+}
+{
+  file: undefined,
+  activity: undefined,
+  diffStats: undefined,
+  sourceHints: undefined
+}
+{
+  file: '.bitasmbl.json',
+  activity: {
+    editEvents: 1,
+    activeDurationSec: 0,
+    idleBreaks: 0,
+    editIntervals: {
+      averageSec: 0,
+      medianSec: 0,
+      rapidEdits: 0,
+      pauses: 0,
+      longPauses: 0
+    },
+    diffStats: { linesAdded: 0, linesDeleted: 0 },
+    sourceHints: { possiblePaste: false, suspiciousJump: false }
+  },
+  diffStats: { linesAdded: 0, linesDeleted: 0 },
+  sourceHints: { possiblePaste: false, suspiciousJump: false }
+}
+last modified: 1793805528302
+last modified delta: 35
+SOURCE HINTS UPDATINNNGG
+Error: SyntaxError: /Users/lukakhaja/Bitasmbl_svelte-again_9e6_76_63/.bitasmbl/bitasmbl.tasks.json: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at Object._readFile (/Users/lukakhaja/Desktop/bitasmbl-cli/node_modules/jsonfile/index.js:25:16)
+    at async updateTaskManifest (file:///Users/lukakhaja/Desktop/bitasmbl-cli/dist/commands/watch.js:528:24)
+Error: SyntaxError: /Users/lukakhaja/Bitasmbl_svelte-again_9e6_76_63/.bitasmbl/bitasmbl.tasks.json: Unexpected non-whitespace character after JSON at position 3047 (line 130 column 1)
+    at JSON.parse (<anonymous>)
+    at Object._readFile (/Users/lukakhaja/Desktop/bitasmbl-cli/node_modules/jsonfile/index.js:25:16)
+    at async updateTaskManifest (file:///Users/lukakhaja/Desktop/bitasmbl-cli/dist/commands/watch.js:528:24)
+Error: SyntaxError: /Users/lukakhaja/Bitasmbl_svelte-again_9e6_76_63/.bitasmbl/bitasmbl.tasks.json: Unexpected non-whitespace character after JSON at position 3047 (line 130 column 1)
+    at JSON.parse (<anonymous>)
+    at Object._readFile (/Users/lukakhaja/Desktop/bitasmbl-cli/node_modules/jsonfile/index.js:25:16)
+    at async updateTaskManifest (file:///Users/lukakhaja/Desktop/bitasmbl-cli/dist/commands/watch.js:528:24)
+{
+  file: 'frontend/src/tasks/Task.svelte',
+  activity: {
+    editEvents: 2,
+    activeDurationSec: 0,
+    idleBreaks: 0,
+    editIntervals: {
+      averageSec: 0,
+      medianSec: 0,
+      rapidEdits: 1,
+      pauses: 0,
+      longPauses: 0
+    },
+    diffStats: { linesAdded: 0, linesDeleted: 0 },
+    sourceHints: { possiblePaste: false, suspiciousJump: false }
+  },
+  diffStats: { linesAdded: 0, linesDeleted: 0 },
+  sourceHints: { possiblePaste: false, suspiciousJump: false }
+}
+last modified: 1793805563862
+last modified delta: 38
+SOURCE HINTS UPDATINNNGG
+{
+  file: undefined,
+  activity: undefined,
+  diffStats: undefined,
+  sourceHints: undefined
+}
+{
+  file: 'frontend/src/tasks/TaskCard.svelte',
+  activity: {
+    editEvents: 2,
+    activeDurationSec: 0,
+    idleBreaks: 0,
+    editIntervals: {
+      averageSec: 0,
+      medianSec: 0,
+      rapidEdits: 1,
+      pauses: 0,
+      longPauses: 0
+    },
+    diffStats: { linesAdded: 0, linesDeleted: 0 },
+    sourceHints: { possiblePaste: false, suspiciousJump: false }
+  },
+  diffStats: { linesAdded: 0, linesDeleted: 0 },
+  sourceHints: { possiblePaste: false, suspiciousJump: false }
+}
+last modified: 1793806902887
+last modified delta: 11
+SOURCE HINTS UPDATINNNGG
+{
+  file: 'frontend/src/tasks/Task.svelte',
+  activity: {
+    editEvents: 3,
+    activeDurationSec: 38,
+    idleBreaks: 0,
+    editIntervals: {
+      averageSec: 12.666666666666666,
+      medianSec: 19,
+      rapidEdits: 1,
+      pauses: 0,
+      longPauses: 0
+    },
+    diffStats: { linesAdded: 64, linesDeleted: 0 },
+    sourceHints: { possiblePaste: true, suspiciousJump: false }
+  },
+  diffStats: { linesAdded: 64, linesDeleted: 0 },
+  sourceHints: { possiblePaste: true, suspiciousJump: false }
+}
+last modified: 1793805602172
+last modified delta: 3669
+SOURCE HINTS UPDATINNNGG
+Error: SyntaxError: /Users/lukakhaja/Bitasmbl_svelte-again_9e6_76_63/.bitasmbl/bitasmbl.tasks.json: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at Object._readFile (/Users/lukakhaja/Desktop/bitasmbl-cli/node_modules/jsonfile/index.js:25:16)
+    at async updateTaskManifest (file:///Users/lukakhaja/Desktop/bitasmbl-cli/dist/commands/watch.js:528:24)

@@ -1,0 +1,58 @@
+[
+  {
+    "file": "frontend/src/tasks/Task.svelte",
+    "fileActivity": {
+      "editEvents": 3,
+      "activeDurationSec": 38,
+      "idleBreaks": 0,
+      "editIntervals": {
+        "averageSec": 12.666666666666666,
+        "medianSec": 19,
+        "rapidEdits": 1,
+        "pauses": 0,
+        "longPauses": 0
+      },
+      "diffStats": {
+        "linesAdded": 64,
+        "linesDeleted": 0
+      },
+      "sourceHints": {
+        "possiblePaste": true,
+        "suspiciousJump": false
+      }
+    },
+    "fileData": {
+      "blobSha": "965f505dd638b99d20dabbb496c668484b3983e8",
+      "mode": "100644",
+      "type": "blob"
+    }
+  },
+  {
+    "file": "frontend/src/tasks/TaskCard.svelte",
+    "fileActivity": {
+      "editEvents": 3,
+      "activeDurationSec": 11,
+      "idleBreaks": 0,
+      "editIntervals": {
+        "averageSec": 3.6666666666666665,
+        "medianSec": 5.5,
+        "rapidEdits": 1,
+        "pauses": 0,
+        "longPauses": 0
+      },
+      "diffStats": {
+        "linesAdded": 5,
+        "linesDeleted": 0
+      },
+      "sourceHints": {
+        "possiblePaste": false,
+        "suspiciousJump": false
+      }
+    },
+    "fileData": {
+      "blobSha": "0db01eecb82b558331152f3a689c52fcd6fcd6cc",
+      "mode": "100644",
+      "type": "blob"
+    }
+  }
+]
